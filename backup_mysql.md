@@ -109,3 +109,9 @@ docker run -v metabase-compose_db-data:/volume -v /tmp:/backup --rm loomchild/vo
 ```
 
 More details in [Backup and Restore a Docker Volume](./backup_docker.md)
+
+## Backup using Dump SQL files
+
+You can backup docker my sql database to a dump.sql using this tutorials:
+- https://gist.github.com/spalladino/6d981f7b33f6e0afe6bb
+- https://dev.to/lanandra/backup-mysql-database-that-running-on-docker-container-1k8h
