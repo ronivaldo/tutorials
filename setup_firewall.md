@@ -22,6 +22,13 @@ apt install ufw
 
 ## Enable UFW:
 
+Before enable, make sure `ufw` is allowing ssh, otherwise the `enable` command may disrupt existing ssh connections:
+To allow incoming connections to a port:
+```bash
+ufw allow ssh
+```
+
+Enable command:
 ```bash
 ufw enable
 ```
