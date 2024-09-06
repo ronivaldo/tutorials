@@ -111,7 +111,7 @@ git commit -am "3.1.1-rc.1"
 # finish the release
 # use the 3.1.1 for commit messages
 # automatically merge into master and develop
-git flow hotfix finish 3.1.1
+git flow release finish 3.1.1
 # push develop and master to origin
 git checkout develop
 git push origin develop
